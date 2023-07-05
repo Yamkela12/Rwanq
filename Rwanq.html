@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+    <title>Rwanqa's Waste $ Recycling </title>
+    <style>
+        .centered-heading {
+            text-align: center;
+        }
+    </style>
+
+    <link rel="stylesheet" type="texr/css" href="style.css">
+
+    <script>
+        Window.addEventListener( 'DomcontentLoaded', () => {
+            const menuItems = documentquerySelectAll('.menu ul li a');
+            const pages = documentquerySelectAll('.page');
+        
+        
+            menuItems.forEach(item => { 
+                item.addEventListener('click', e => {
+                    e.preventDefault();
+        
+        
+                    const targetPage = document.getElementById(item.getAttribute('href').substructing(1));
+        
+        
+                    pages.forEach(page => { 
+                        if (page === targetPage) {
+                            page.style.display = 'block';
+                        } else {
+                            page.style.display = 'none';
+                        }
+                    });
+                    });
+                });
+            });
+         
+        </script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body style="background-color: #218029;"
+
+    <h1> Welcome to Rwanqa's Waste $ Recycling </h1>
+    
+    <style>
+    .centered-heading {
+        text-align: center;
+    }
+    </style>
+<! -- your loging and registration form will go here -- > 
+<br>
+
+
+<form>
+    <h2>Login</h2>
+    <label for="email">Email:</label> <br>
+    <input type="email" id="email" name="email" required>
+    <br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required>
+    <br>
+
+    <input type="submit" value="login">
+     
+</form>
+<p>Already have an account? <a href="login.html">Login Here</a></p>
+
+<form>
+     <h2>Register</h2>
+     <label for="name">Name:</label><br>
+     <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required>
+    <br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required>
+    <br>
+
+    <input type="submit" value="Register">
+     
+</form>
+<p>Dont have an account? <a href="register.html">Register Here</a></p>
+
+<br>
+
+<div class="menu">
+    <ul> 
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Requst Pickup</a</li>
+            
+            
+    </ul>
+</div>
+
+<form action="menu.html">
+    <input type="submit"  value="Submit Request">
+</form>
+
+<style>
+    /* Menu style*/
+
+    .body {
+  background-image: url('C:\Users\busisiwe nkazimulo\Desktop\Waste website\images\100.png');
+}
+    .menu {
+    background-color: #0b1b4e; /* change the background color to youe desired color */
+    padding: 10px;
+    }
+    .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color: #218029; /* change the text color to ensure readability on the background */
+        padding: 5px;
+    }
+
+    .menu ul li a:hover {
+        background-color: #63212c;
+
+        */ content style */
+        #content {
+            margin-top: 20px;
+        }
+
+        .page {
+            display: none;
+            background-color: black;
+            padding: 20px;
+        }
+        .page h3 {
+            color: black;
+        }
+        .page p {
+            color: black;
+            margin-bottom: 10px;
+        }
+
+    }
+    
+</style>
+
+
+</style>
+</body>
+</html>

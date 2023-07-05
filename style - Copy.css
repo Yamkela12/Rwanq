@@ -1,0 +1,45 @@
+
+    /* Menu styls */
+    .menu {
+        background-color: #0b1b4e; /* change the background color to youe desired color */
+        padding: 10px;
+        }
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .menu ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    
+        .menu ul li a {
+            text-decoration: none;
+            color: #218029; /* change the text color to ensure readability on the background */
+            padding: 5px;
+        }
+    
+        .menu ul li a:hover {
+            background-color: #63212c;
+    
+            */ content style */
+            #content {
+                margin-top: 20px;
+            }
+    
+            .page {
+                display: none;
+                background-color: black;
+                padding: 20px;
+            }
+            .page h3 {
+                color: black;
+            }
+            .page p {
+                color: black;
+                margin-bottom: 10px;
+            }
+    
+        }
